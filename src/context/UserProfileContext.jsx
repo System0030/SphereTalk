@@ -4,11 +4,26 @@ const UserProfileContext = createContext();
 
 export const UserProfileProvider = ({ children }) => {
   const [profile, setProfile] = useState({
-    displayName: "AnimeCoon",
-    email: "jackman69@mail.com",
+    displayName: "JackMan6901",
+    email: "JackMan6901@mail.com",
     gender: "Male",
-    description: "A vibrant space where art and storytelling collide...",
-    profileImage: "https://i.ibb.co/QvL32B2L/coop-link-loz-1.jpg",
+    description: `🗡️ JackMan6901 | The Silent Blade of Code 🐉
+
+                  Once a lone cultivator in the realm of logic and syntax,  
+                  JackMan6901 honed his skills through countless battles  
+                  against bugs and broken builds.
+
+                  Known in the digital sects as the Silent Blade,  
+                  he writes code sharper than a dragon-forged blade  
+                  and moves through frameworks like wind through bamboo.
+
+                  ⚔️ Master of React Arts  
+                  ⚔️ Wielder of the Tailwind Scrolls  
+                  ⚔️ Shadow Coder of the Git Sect
+
+                  "In silence, I debug. In darkness, I deploy."`,
+
+    profileImage: "https://i.ibb.co/4nyXpjgg/channels4-profile.jpg",
     banner: "https://i.ibb.co/VWLqrczr/123.jpg",
     socialLink: "https://twitter.com/AnimeCoon",
     inboxPermission: "Everyone",
@@ -22,6 +37,7 @@ export const UserProfileProvider = ({ children }) => {
     <UserProfileContext.Provider value={{ profile, updateProfile }}>
       {children}
     </UserProfileContext.Provider>
+    
   );
 };
 
