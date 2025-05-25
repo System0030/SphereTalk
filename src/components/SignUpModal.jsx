@@ -14,9 +14,14 @@ function SignUpModal({ onClose, switchToSignIn }) {
 
   // Predefined dummy emails
   const dummyEmails = [
-    "user0@gmail.com",
+    "user@gmail.com",
     "admin@gmail.com",
-    "user1@gmail.com"
+    "User@gmail.com",
+    "Admin@gmail.com",
+    "User1@gmail.com",
+    "user1@gmail.com",
+    "User0@gmail.com",
+    "user0@gmail.com"
   ];
 
   const handleSignUp = async () => {
@@ -51,7 +56,7 @@ function SignUpModal({ onClose, switchToSignIn }) {
     console.log("New user created:", newUser); // Simulate user creation (for testing)
 
     // Step 4: Show success message
-    setSuccessMessage("✅ Account created successfully! You can now log in.");
+    setSuccessMessage("✅ Email Verified successfully! You can Proceed now");
     setErrorMessage(""); // Clear any existing error messages
 
     // Step 5: Start the countdown timer with a random delay (between 3 and 5 seconds)
