@@ -9,7 +9,7 @@ const ProfileModal = ({ onClose }) => {
       <div className="bg-black w-[80%] sm:w-[300px] p-4 rounded-xl shadow-lg">
         <div className="flex justify-between items-center">
           <img
-            src="https://i.ibb.co/ZzKLndmq/st-logo-letter-monogram-slash-modern-designs-template-black-color-white-background-164908340.webp"
+            src="https://i.ibb.co/sJKjrR8F/Screenshot-2025-05-13-234244.png"
             alt="Profile"
             className="w-8 h-8 rounded-full object-cover"
           />
